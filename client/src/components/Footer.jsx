@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='mt-30'>
+    <div className='mt-15'>
       <footer className="footer footer-horizontal footer-center bg-blue-900 text-base-content rounded p-10">
   <nav className="grid grid-flow-col gap-4">
     <a className="link link-hover">About us</a>
@@ -48,7 +48,7 @@ function Footer() {
     </div>
   </nav>
   <aside>
-    <p>Copyright © {new Date().getFullYear()} - All right reserved by Arun kumar</p>
+    <p>Copyright © {new Date().getFullYear()} - All right reserved by Arun kumar ❤️</p>
   </aside>
 </footer>
     </div>
