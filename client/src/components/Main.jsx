@@ -2,8 +2,13 @@ import React from 'react'
 
 function Main() {
   return (
-    <div className='md:ml-12 ml-0 flex justify-center'>
-      <img className='rounded-xl' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9-vbL6vHHPQF914mW2Q27I1ciFzEECKjJuA&s" height={90} width={400} alt="" />
+    <div className="relative flex justify-center md:ml-12">
+      <div className="absolute inset-0 -z-10 rounded-full bg-gradient-to-br from-cyan-500/25 via-sky-500/10 to-violet-500/25 blur-2xl" />
+      <img
+        className="h-[240px] w-[240px] rounded-full border-4 border-cyan-400/40 object-cover shadow-xl shadow-cyan-950/30 md:h-[280px] md:w-[280px]"
+        src="/navneet.jpg"
+        alt="Navneet Mishra"
+      />
     </div>
   )
 }
